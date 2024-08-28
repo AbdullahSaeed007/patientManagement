@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.flex
+{
+    display: flex;
+}
+.logo img
+{
+    width: 5rem;
+}
+
+/* ******************Nav***************** */
+.upper-nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.upper-nav .img img
+{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.upper-nav .profile
+{
+    align-items: center;
+}
+
+.upper-nav .dropdown
+{
+    margin: 0rem 1rem;
+}
+
+
+.lower-nav 
+{
+    width:100%;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+.lower-nav .links
+{
+      list-style: none; 
+      display: flex; 
+}
+.lower-nav .links .link
+{
+    
+     font-size: 1.2rem;
+     padding: 1rem 1.5rem;
+}
+.lower-nav .links .link:hover
+{
+    transition: 0.8s;
+    border-radius: 2rem;
+    background: #225577;
+}
+
+
+
+
+/* search-section */
+
+
+
+.search-box
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    padding:6px ;
+
+}
+.search-btn
+{
+    margin: 16px;
+}
+
+.search-txt
+{
+    
+    outline: none;
+    
+    font-size: 16px;
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.search-btn:hover
+{
+    color: white;
+}
+
+
+/* search-section end */
+
+/* info nothing to do with backend */
+.info_display
+{
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 77%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_display div
+{
+   
+    color: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black; 
+    font-weight: 200;
+}
+
+
+/* search-result section start */
+
+
+.pat_listBox
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    padding:6px ;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+
+}
+.search-result
+{
+    /* float: right;
+    margin-top: 6px;*/
+    margin-right: 40px;
+    /* margin: 16px; */
+    
+}
+.search-result:hover
+{
+    color: white;
+}
